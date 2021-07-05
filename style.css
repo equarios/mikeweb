@@ -8,11 +8,10 @@ body {
   font-display: swap;
 }
 
-.shortcuticon{
-  height: auto;
-  width: auto;
-}
 
+.form-group{
+  margin-bottom: 30px;
+}
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -157,6 +156,10 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
   color: rgba(255, 255, 255, 1);
+}
+
+.navbar-header{
+  width: 300px;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -321,6 +324,7 @@ a:hover {
   margin: 0;
 }
 
+
 .navbar .nav {
   padding-top: 2px;
   margin-right: -16px;
@@ -329,10 +333,12 @@ a:hover {
 }
 
 .nav > li {
-  float: left;
+  
   margin-top: 4px;
   font-size: 16px;
 }
+
+
 
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
@@ -344,8 +350,14 @@ a:hover {
 }
 
 .navbar-toggle {
-  margin: 10px 10px 0 0;
+  margin: 10px 10px 0 10px;
   border: 0px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  
+  background-color: #a6b5e7;
+
 }
 
 .navbar-toggle:hover {
@@ -515,6 +527,7 @@ button {
 .form-control {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
+  width: 300px;
 }
 
 .scrollToTop {
